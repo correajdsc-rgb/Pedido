@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        De: Julia
+        Para: Anna
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="page">
+
+        <!-- =====================================================
+             PAINEL ESQUERDO
+             Motivos para clicar no SIM
+        ====================================================== -->
+
+        <aside class="side-panel left-panel">
+
+            <button
+                class="side-button"
+                id="reasons-yes-button"
+            >
+
+                <span class="side-icon">
+                    ☝️
+                </span>
+
+                <span class="side-title">
+                    Por que você deveria clicar no SIM?
+                </span>
+
+                <span class="side-hint">
+                    Clique para descobrir
+                </span>
+
+            </button>
+
+        </aside>
+
+
+        <!-- =====================================================
+             CONTEÚDO CENTRAL
+        ====================================================== -->
+
+        <section class="main-content">
+
+            <div class="question-card">
+
+                <div class="cover-images">
+
+                    <img
+                        src="Imagens de Gatinhos - não e sim/CAPA.jpg"
+                        alt="Imagem de capa 1"
+                        class="cover-image"
+                    >
+
+                    <img
+                        src="Imagens de Gatinhos - não e sim/CAPA2.jpg"
+                        alt="Imagem de capa 2"
+                        class="cover-image"
+                    >
+
+                </div>
+
+                <p class="question-subtitle">
+                    Tenho uma pergunta muito importante para você!
+                </p>
+
+                <h1>
+                    Quer namorar comigo?
+                </h1>
+
+                <div class="answer-buttons">
+
+                    <button
+                        class="yes-button"
+                        id="yes-button"
+                    >
+                        SIM 😁
+                    </button>
+
+                    <button
+                        class="no-button"
+                        id="no-button"
+                    >
+                        NÃO 🤮
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PAINEL DIREITO
+             Motivos para NÃO namorar comigo
+        ====================================================== -->
+
+        <aside class="side-panel right-panel">
+
+            <button
+                class="side-button"
+                id="reasons-no-button"
+            >
+
+                <span class="side-icon">
+                    ⚠️
+                </span>
+
+                <span class="side-title">
+                    Ainda acho que você deveria clicar no SIM mas
+                </span>
+
+                <span class="side-hint">
+                    Talvez seja melhor saber que...
+                </span>
+
+            </button>
+
+        </aside>
+
+    </main>
+
+
+    <!-- =========================================================
+         MODAL 1
+         MOTIVOS PARA NAMORAR COMIGO
+    ========================================================== -->
+
+    <div
+        class="modal-overlay"
+        id="reasons-modal"
+    >
+
+        <div class="modal">
+
+            <button
+                class="modal-close"
+                id="close-reasons-modal"
+            >
+                ×
+            </button>
+
+            <img
+                class="reason-image"
+                id="reason-image"
+                src="motivos para namorar comigo/Motivo1.jpg"
+                alt="Foto do motivo"
+            >
+
+            <h2 id="reason-title">
+                Motivo #1
+            </h2>
+
+            <p id="reason-text">
+                Porque eu gosto de você.
+            </p>
+
+            <div class="reason-navigation">
+
+                <button
+                    class="navigation-button"
+                    id="previous-reason"
+                >
+                    ←
+                </button>
+
+                <span id="reason-counter">
+                    1 / 10
+                </span>
+
+                <button
+                    class="navigation-button"
+                    id="next-reason"
+                >
+                    →
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         MODAL 2
+         MOTIVOS PARA NÃO NAMORAR COMIGO
+    ========================================================== -->
+
+    <div
+        class="modal-overlay"
+        id="reasons-no-modal"
+    >
+
+        <div class="modal">
+
+            <button
+                class="modal-close"
+                id="close-reasons-no-modal"
+            >
+                ×
+            </button>
+
+            <img
+                class="reason-image"
+                id="reason-no-image"
+                src="motivos para não namorar comigo/Motivo1.jpg"
+                alt="Foto do motivo"
+            >
+
+            <h2 id="reason-no-title">
+                Motivo #1
+            </h2>
+
+            <p id="reason-no-text">
+                Talvez seja melhor você saber disso...
+            </p>
+
+            <div class="reason-navigation">
+
+                <button
+                    class="navigation-button"
+                    id="previous-reason-no"
+                >
+                    ←
+                </button>
+
+                <span id="reason-no-counter">
+                    1 / 9
+                </span>
+
+                <button
+                    class="navigation-button"
+                    id="next-reason-no"
+                >
+                    →
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         MODAL 3
+         RESPOSTAS AO BOTÃO NÃO
+    ========================================================== -->
+
+    <div
+        class="modal-overlay"
+        id="no-response-modal"
+    >
+
+        <div class="modal">
+
+            <button
+                class="modal-close"
+                id="close-no-response-modal"
+            >
+                ×
+            </button>
+
+            <img
+                class="reason-image"
+                id="no-response-image"
+                src="Imagens de Gatinhos - não e sim/N1.jpg"
+                alt="Resposta ao botão não"
+            >
+
+            <h2 id="no-response-title">
+                Tem certeza? 👀
+            </h2>
+
+            <p id="no-response-text">
+                Sua resposta aqui.
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- =========================================================
+     MODAL
+     RESPOSTA AO BOTÃO SIM
+========================================================== -->
+
+<div
+    class="modal-overlay"
+    id="yes-response-modal"
+>
+
+    <div class="modal">
+
+        <button
+            class="modal-close"
+            id="close-yes-response-modal"
+        >
+            ×
+        </button>
+
+        <img
+            class="reason-image"
+            id="yes-response-image"
+            src="sim1.jpg"
+            alt="Resposta ao botão sim"
+        >
+
+        <h2 id="yes-response-title">
+            Agora você é MINHA MULHER
+        </h2>
+
+        <p id="yes-response-text">
+            🥰
+        </p>
+
+    </div>
+
+</div>
+
+
+    <!-- =========================================================
+         JAVASCRIPT
+    ========================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

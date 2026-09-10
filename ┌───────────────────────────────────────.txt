@@ -1,0 +1,132 @@
+Estrutura do site
+
+
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│   ┌──────────────┐                         ┌──────────────┐   │
+│   │              │                         │              │   │
+│   │   Motivos    │                         │   Motivos    │   │
+│   │     para     │       Quer namorar     │     para     │   │
+│   │   namorar    │          comigo?       │      NÃO     │   │
+│   │    comigo    │                         │    comigo    │   │
+│   │              │       [  SIM  ]         │              │   │
+│   └──────────────┘       [  NÃO  ]         └──────────────┘   │
+│                                                              │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+
+
+
+
+
+pedido-namoro/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+└── images/
+    ├── foto1.jpg
+    ├── foto2.jpg
+    ├── foto3.jpg
+    └── ...
+
+
+
+Etapa 1 — Estrutura
+
+Criamos:
+
+index.html
+style.css
+script.js
+estrutura das quatro áreas.
+Etapa 2 — Design
+
+Definimos:
+
+paleta de cores;
+fonte;
+fundo;
+cartões;
+botões;
+animações.
+Etapa 3 — Lateral esquerda
+
+Implementamos os motivos para namorar comigo.
+
+Etapa 4 — Lateral direita
+
+Implementamos os motivos para não namorar comigo.
+
+Etapa 5 — Sistema das 7 tentativas
+
+Criamos os sete popups + imagens.
+
+Etapa 6 — Botão fugitivo
+
+Implementamos a lógica do botão NÃO fugir depois da sétima tentativa.
+
+Etapa 7 — Final
+
+Implementamos o botão SIM e a tela:
+
+"Agora é oficial. ❤️"
+
+Etapa 8 — Fotos e personalização
+
+Você me passa:
+
+textos;
+fotos;
+nomes/apelidos;
+cores;
+frases internas de vocês;
+piadas;
+etc.
+
+E transformamos o site em algo bem pessoal de vocês dois.
+
+Etapa 9 — Publicação
+
+Colocamos no GitHub Pages e você terá um link para mandar para ela.
+
+
+
+
+RELEASE 0.1
+│
+├── 0.1.0  Estrutura HTML              ✅
+│
+├── 0.1.1  Layout inicial              ← estamos aqui ✅
+│
+├── 0.1.2  Identidade visual ✅
+│         ├── cores
+│         ├── tipografia
+│         ├── cartões
+│         └── detalhes
+│
+├── 0.1.3  Responsividade ✅
+│         └── celular + computador
+│
+└── 0.1.4  Preparação da interação
+
+Depois fechamos o 0.1.
+
+E aí:
+
+RELEASE 0.2
+│
+├── 0.2.1  Painel "Motivos para namorar"
+├── 0.2.2  Painel "Motivos para não namorar"
+├── 0.2.3  Primeiro popup
+└── 0.2.4  Sistema dos 7 cliques
+
+Depois:
+
+RELEASE 0.3
+│
+├── 0.3.1  Botão NÃO fugitivo
+├── 0.3.2  Animações
+├── 0.3.3  Tela do SIM
+└── 0.3.4  Finalização
